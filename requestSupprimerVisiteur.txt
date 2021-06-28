@@ -1,0 +1,1 @@
+select visiteur.id FROM visiteur LEFT JOIN lignefraisforfait ON lignefraisforfait.idVisiteur = visiteur.id WHERE lignefraisforfait.idVisiteur IS NULL
